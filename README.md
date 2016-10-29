@@ -5,7 +5,7 @@ Ajax Function Helper
  * <pre>
  *      Function parameters
  *      ------------------------------------------------------
- *      baseAjax(url, data, callBack, hasLoading, isHtml)
+ *      ajax(url, data, callBack, hasLoading, isHtml)
  *
  *      url        : HTTP Request Url
  *      data  	   : HTTP Request Form Data
