@@ -16,7 +16,7 @@
 
 #Usage
 
-Using sample : has loading true, isHtml false response is JSON
+Using sample : hasLoading = true, isHtml = false response is JSON
 
 <pre>
     ajax('index.php', {id:'1'}, function (data) {
@@ -28,7 +28,7 @@ Using sample : has loading true, isHtml false response is JSON
       }, true, false);
 </pre>
 
-  Using Sample  has loading true, isHtml true response is HTML
+  Using sample :  hasLoading = true, isHtml = true response is HTML
 <pre>
   	ajax('index.php', {id:1}, function (data) {
    			/* Response HTML */
