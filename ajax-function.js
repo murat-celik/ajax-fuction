@@ -1,17 +1,17 @@
 function startLoading(message){
-    /* Your custom startLoading  function body */
+    /* Your custom startLoading()  function body */
 }
 
 
 function stopLoading(){
-     /* Your custom stopLoading  function body */
+     /* Your custom stopLoading()  function body */
 }
 
 function displayMessage(){
-     /* Your custom displayMessage  function body*/
+     /* Your custom displayMessage()  function body*/
 }
 
-var ajaxStatus = true;
+var ajaxStatus = true; //  Discard Client Request When Previous Request Still Not Response
 function ajax(url, data, callBack, loading, isHtml) {
     if (ajaxStatus = true) {
         
